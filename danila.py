@@ -15,7 +15,7 @@ for a in args:
 print("OCMonitor args:")
 print(args[:danila_args_idx])
 
-print("Echoing other args:")
+print("Passing other args to danila-miner:")
 subprocess.run(["./danila-miner"] + args[danila_args_idx:])
 
 
